@@ -1,81 +1,117 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    width: 600px;
-    height: 250px;
-    margin: 0 auto;
-    position: relative;
+  width: 600px;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
 }
 
 header img {
-    width: 600px;
-    height: 250px;
+  width: 600px;
+  height: 250px;
 }
 
 header h1 {
-    position: absolute; 
-    top: -5%;
-    left: 50%;
-    color: white;
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  color: white;
 }
 
 header p {
-    position: absolute;
-    top: 20%;
-    left: 45%;
-    font-size: 20px;
-    color: white;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  font-size: 20px;
+  color: white;
 }
 
-#menu-section{
-    width: 600px;
-    margin: auto;
+#menu-section {
+  width: 600px;
+  margin: auto;
 }
 
 .card {
-    border-bottom: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #f9f9f9;
-    display: flex;
-    align-items: center;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
 }
 
 .card h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .card h3 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .card p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .menu {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .emoji {
-    font-size: 4em; 
-    margin-right: 10px; 
+  font-size: 4em;
+  margin-right: 10px;
 }
 
 .add-button {
-    font-size: 1.5em;
-    margin-left: auto;
+  font-size: 1.5em;
+  margin-left: auto;
 }
 
+.small-card {
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.emoji .description {
+  margin-left: 10px;
+  font-size: 16px;
+}
+.small-card .emoji h3 {
+  font-size: 14px;
+  margin: 0;
+}
 
+.small-card .emoji h2 {
+  margin: 0;
+  font-size: 16px;
+}
 
+.small-card .emoji {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
 
-
-
+.total-price {
+  font-size: 1.5em;
+  text-align: end;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
