@@ -3,7 +3,7 @@ import { menuArray } from "/data.js";
 const menuSection = document.getElementById("menu-section");
 
 const selectedMarketItems = {
-  "button-id0": 1,
+  "button-id0": 0,
   "button-id1": 0,
   "button-id2": 0,
 };
